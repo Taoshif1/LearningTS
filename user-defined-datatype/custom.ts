@@ -41,7 +41,7 @@ users.push({ name: 'Rahim', age: 40 });
 //console.log(users);
 for(const key in users) {
     console.log(users[key]);
-    //console.log(users[key]["name"]); // only prints all the names
+    console.log(users[key]["name"]); // only prints all the names
     //console.log(users[key]["age"]); // only prints all the ages
 }
 */
