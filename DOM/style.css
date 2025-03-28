@@ -1,0 +1,9 @@
+* {
+    background-color: bisque;
+}
+div {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid blue;
+}
