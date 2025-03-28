@@ -1,8 +1,13 @@
 // access modifier: public, private, protected, readonly
 
 // Encapsulation & Access Modifiers
+// public: accessible from anywhere
+// private: accessible only within the class
+// protected: accessible within the class and its subclasses
+// readonly: can be assigned only once
+
 class User {
-    readonly userName: string;
+    readonly userName: string;  // can be assigned only once
     public age: number;
 
     constructor(userName: string, age: number) {
@@ -28,10 +33,10 @@ class Student extends User {
         );
     }
 
+    // setter & getter
     setStudentId(studentId: number): void {
         this.studentId = studentId;
     }
-
     getStudentId(): number {
         return this.studentId;
     }
@@ -39,7 +44,7 @@ class Student extends User {
 
     let student1 = new Student("Anis", 31, 1302020015);
     student1.setStudentId(2023360376);
-    //console.log(student1.getStudentId());
+    //console.log(student1.getStudentId()); 
     student1.display();
 
     let user1 = new User("gazi", 21);
