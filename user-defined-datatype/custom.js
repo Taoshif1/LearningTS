@@ -1,18 +1,19 @@
-var users; // Array of User type
+"use strict";
+let users; // Array of User type
 users = [];
-var user1;
+let user1;
 user1 = { userName: 'anis', userId: 101 };
 users.push(user1);
-var user2;
+let user2;
 user2 = { userName: 'gazi', userId: 102 };
 users.push(user2);
-var user3;
+let user3;
 user3 = { userName: 'lucky', userId: 103 };
 users.push(user3);
-for (var key in users) {
+for (const key in users) {
     console.log(users[key]);
 }
-var getRequest;
+let getRequest;
 getRequest = 'GET';
 function requestHandler(requestType) {
     console.log(requestType);
@@ -31,7 +32,7 @@ users.push({ name: 'Rahim', age: 40 });
 //console.log(users);
 for(const key in users) {
     console.log(users[key]);
-    //console.log(users[key]["name"]); // only prints all the names
+    console.log(users[key]["name"]); // only prints all the names
     //console.log(users[key]["age"]); // only prints all the ages
 }
 */

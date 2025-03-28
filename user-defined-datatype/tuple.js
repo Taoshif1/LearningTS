@@ -1,6 +1,7 @@
+"use strict";
 // mixed data - key-value pair
-var employee = ['John Doe', 30];
-var users;
+let employee = ['John Doe', 30];
+let users;
 users = [101, 'anis'];
 console.log(users);
 //console.log(users[0]);

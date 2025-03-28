@@ -1,8 +1,9 @@
+"use strict";
 //let userNames: string[];
-var userNames;
+let userNames;
 userNames = ['Gazi', 'Anis', 'John'];
 console.log(userNames[0]); // Output: Gazi
-var multipleType;
+let multipleType;
 multipleType = ['Gazi', 20, 'Anis', 30];
 console.log(multipleType); // Output: [ 'Gazi', 20, 'Anis', 30 ]
 userNames.push('Smith');

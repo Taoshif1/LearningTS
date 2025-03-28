@@ -1,4 +1,5 @@
-var users; // Array of objects
+"use strict";
+let users; // Array of objects
 /*
 users = [
     { name: 'Gazi', age: 21 },
@@ -6,16 +7,16 @@ users = [
 ];
 */
 users = [];
-var user1; // Object with specific properties
-var user2; // Object with specific properties
+let user1; // Object with specific properties
+let user2; // Object with specific properties
 //console.log(users);
 users.push({ name: 'Gazi', age: 21 });
 users.push({ name: 'Anis', age: 31 });
 //console.log(users);
-for (var key in users) {
+for (const key in users) {
     console.log(users[key]);
     //console.log(users[key]["name"]); // only prints all the names
-    //console.log(users[key]["age"]); // only prints the age
+    //console.log(users[key]["age"]); // only prints all the ages
 }
 //let user1: { name: string, age?: number }; // Object with optional (age?) properties
 //user1 = { name: 'Gazi', age: 21 };

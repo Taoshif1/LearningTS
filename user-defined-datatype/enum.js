@@ -1,3 +1,4 @@
+"use strict";
 // enum - store contants & duplicate values are not allowed
 // numeric enum
 /*
