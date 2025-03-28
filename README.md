@@ -2,13 +2,13 @@
 
 Welcome to my journey of learning TypeScript! 👋
 
-This repository documents my progress as I build a strong foundation in TypeScript, with the ultimate goal of mastering the MERN stack.
+This repository documents my progress as I build a strong foundation in TypeScript, with the ultimate goal of mastering the MERN stack. ✨
 
 [![Status: Learning Completed (for now!)](https://img.shields.io/badge/Status-Learning%20Completed%20(for%20now!)-brightgreen.svg?style=for-the-badge)](https://github.com/Taoshif1/LearningTS)
 [![Author: Gazi Taoshif](https://img.shields.io/badge/Author-Gazi%20Taoshif-blue.svg?style=for-the-badge)](https://www.github.com/Taoshif1)
 [![Department: CSE, East West University (EWU)](https://img.shields.io/badge/Department-CSE%2C%20EWU-lightgray.svg?style=for-the-badge)](https://www.ewubd.edu/)
 
-**Hey there, fellow code explorers!**
+**Hey there, fellow code explorers!** 🧑‍💻
 
 Welcome to my personal learning space for TypeScript. This repository contains my experiments, explorations and sometimes messy attempts to grasp the wonders of TypeScript. Think of it as my digital notebook documenting my journey learning this fantastic language.
 
@@ -31,11 +31,11 @@ My goal is to become a more effective and efficient developer by mastering TypeS
 
 If you're also on the TypeScript learning path, know that you're not alone! It's okay to make mistakes, get stuck, and feel overwhelmed sometimes. The key is to keep exploring, experimenting and pushing forward. I hope this repository offers a glimpse into the messy but rewarding reality of learning a new technology. Let's learn from each other!
 
-**Status: Learning Completed (for now!)**
+**Status: Learning Completed (for now!)** ✅
 
 This repository represents a significant milestone in my TypeScript learning journey. While learning and refining skills is ongoing, the core concepts and initial goals for this learning phase are complete. I may revisit and update this repository as I encounter new challenges or explore more advanced topics. Mini-projects may also be added later.
 
-**Author: Gazi Taoshif**
+** ✍️ Author: Gazi Taoshif**
 
 CSE Department,
 
@@ -47,9 +47,9 @@ Dhaka, Bangladesh.
 
 I'd love to connect with other learners and developers! Feel free to reach out with insights, suggestions, or to share your learning experiences.
 
-* LinkedIn: \[www.linkedin.com/in/taoshif1](www.linkedin.com/in/taoshif1)
-* Portfolio: \[(https://taoshif1.github.io/portfolio-css/)\]
-* Email: taoshif2@gmail.com
+* LinkedIn: [www.linkedin.com/in/taoshif1]
+* Portfolio: [https://taoshif1.github.io/portfolio-css/]
+* Email: taoshif2@gmail.com 📧
 
 **Contributing (With a Learner's Mindset):**
 
@@ -59,8 +59,8 @@ This is primarily my personal learning space but I welcome constructive feedback
 
 Thanks for stopping by and taking a look at my TypeScript learning journey. Remember, every expert started somewhere and sharing our learning process can be incredibly valuable. Let's keep learning and growing together!
 
-**Happy Coding!**
+**Happy Coding!💻**
 
-##   Did you find this repository helpful?
+##   Did you find this repository helpful? 👍
 
 ## If this repository has helped you in any way, please consider giving it a star ⭐! Your support motivates me to continue sharing my learning journey.
