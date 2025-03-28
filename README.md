@@ -5,10 +5,9 @@ Welcome to my journey of learning TypeScript! 👋
 This repository, is where I'm documenting my progress as I build a strong foundation in TypeScript, with the ultimate goal of mastering the MERN stack.
 
 ## Status: WIP (work in progress) 🛣️
-
 # Learning TypeScript: My Personal Playground
 
-[![Status: Learning in Progress](https://img.shields.io/badge/Status-Learning%20in%20Progress-orange.svg?style=for-the-badge)](https://github.com/Taoshif1/LearningTS)
+[![Status: Learning Completed (for now!)](https://img.shields.io/badge/Status-Learning%20Completed%20(for%20now!)-brightgreen.svg?style=for-the-badge)](https://github.com/Taoshif1/LearningTS)
 [![Author: Gazi Taoshif](https://img.shields.io/badge/Author-Gazi%20Taoshif-blue.svg?style=for-the-badge)](https://github.com/Taoshif1)
 [![Department: CSE, East West University (EWU)](https://img.shields.io/badge/Department-CSE%2C%20EWU-lightgray.svg?style=for-the-badge)](https://www.ewubd.edu/)
 
@@ -36,9 +35,9 @@ My goal in learning TypeScript is to become a more effective and efficient devel
 
 If you're also on the TypeScript learning path, know that you're not alone! It's okay to make mistakes, to get stuck, and to feel overwhelmed sometimes. The key is to keep exploring, keep experimenting, and keep pushing forward. I hope this repository can offer a glimpse into the messy but rewarding reality of learning a new technology. Let's learn from each other!
 
-**Status: Actively Learning!**
+**Status: Learning Completed (for now!)**
 
-This repository is a living document of my learning journey. It will continue to evolve as I learn more and delve deeper into TypeScript. Expect updates, refactors, and maybe even some complete rewrites as my understanding grows.
+This repository represents a significant milestone in my TypeScript learning journey. While the process of learning and refining skills is ongoing, the core concepts and initial goals I set for this learning phase are now complete. I might revisit and update this repository as I encounter new challenges or explore more advanced topics in the future.
 
 **Author: Gazi Taoshif**
 CSE Department
@@ -67,6 +66,3 @@ While this is primarily my personal learning space, I'm open to constructive fee
 Thanks for stopping by and taking a look at my TypeScript learning journey. Remember, every expert started somewhere, and sharing our learning process can be incredibly valuable. Let's keep learning and growing together!
 
 **Happy Coding!**
-You can connect with me on LinkedIn: [LinkedIn Profile URL] 🔗
-
-Happy coding! 🚀
