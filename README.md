@@ -4,9 +4,6 @@ Welcome to my journey of learning TypeScript! 👋
 
 This repository, is where I'm documenting my progress as I build a strong foundation in TypeScript, with the ultimate goal of mastering the MERN stack.
 
-## Status: WIP (work in progress) 🛣️
-# Learning TypeScript: My Personal Playground
-
 [![Status: Learning Completed (for now!)](https://img.shields.io/badge/Status-Learning%20Completed%20(for%20now!)-brightgreen.svg?style=for-the-badge)](https://github.com/Taoshif1/LearningTS)
 [![Author: Gazi Taoshif](https://img.shields.io/badge/Author-Gazi%20Taoshif-blue.svg?style=for-the-badge)](https://github.com/Taoshif1)
 [![Department: CSE, East West University (EWU)](https://img.shields.io/badge/Department-CSE%2C%20EWU-lightgray.svg?style=for-the-badge)](https://www.ewubd.edu/)
