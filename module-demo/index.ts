@@ -9,6 +9,7 @@ function display(): void {
 display();
 */
 
+
 // importing all the exported members of student.ts
 // import (all) * as (name) student from './student';
 import * as student from './student';
@@ -16,3 +17,9 @@ function display(): void {
     console.log(`${student.name} is ${student.age} years old.`);
 }
 display();
+
+
+
+
+
+
