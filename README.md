@@ -34,8 +34,8 @@ If you're also on the TypeScript learning path, know that you're not alone! It's
 ---
 
 ## **✍️ Author:**
-Gazi Taoshif
-CSE (EWU),
+Gazi Taoshif. 
+CSE (EWU). 
 Dhaka, Bangladesh.
 
 ---
