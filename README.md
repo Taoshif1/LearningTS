@@ -42,7 +42,7 @@ Dhaka, Bangladesh.
 
 ## **Connect and Learn with Me:**
 
-I'd love to connect with other learners and developers! Feel free to reach out with insights, suggestions, or to share your learning experiences.
+I'd love to connect with other learners and developers! Feel free to reach out with insights, suggestions or to share your learning experiences.
 
 * LinkedIn: [www.linkedin.com/in/taoshif1]
 * Portfolio: [https://taoshif1.github.io/portfolio-css/]
