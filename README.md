@@ -45,7 +45,7 @@ Dhaka, Bangladesh.
 I'd love to connect with other learners and developers! Feel free to reach out with insights, suggestions or to share your learning experiences.
 
 * LinkedIn: [www.linkedin.com/in/taoshif1]
-* Portfolio: [https://taoshif1.github.io/portfolio-css/]
+* Portfolio: [[https://taoshif1.github.io/portfolio-css/](https://taoshif1.github.io/AI-Portfolio/)]
 * Email: taoshif2@gmail.com 📧
 
 ---
