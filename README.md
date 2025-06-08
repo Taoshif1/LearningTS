@@ -66,4 +66,4 @@ Thanks for stopping by and taking a look at my TypeScript learning journey. Reme
 
 ##  **Did you find this repository helpful? 👍**
 
-## **If this repository has helped you in any way, please consider giving it a star ⭐! Your support motivates me to continue sharing my learning journey.**
+## **If this repository has helped you in any way, please consider giving a star!⭐ Your support motivates me to continue sharing my learning journey.**
