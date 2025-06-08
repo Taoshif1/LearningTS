@@ -6,8 +6,6 @@
 
 ## **Hey there, fellow code explorers! Welcome to my journey of learning TypeScript!👋**
 
----
-
 ## **Why This Repository?**
 
 Learning to code is an adventure and TypeScript is the latest exciting terrain I'm navigating. This repository is where I put theory into practice, try out different concepts and build small projects to solidify my understanding. I want to share this space not as a definitive guide but as a real-world example of someone going through the learning process – with all its ups and downs.
