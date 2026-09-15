@@ -1,69 +1,150 @@
-# Learning TypeScript (Road to MERN Stack) 🚀
-[![Status: Learning Completed (for now!)](https://img.shields.io/badge/Status-Learning%20Completed%20-brightgreen.svg?style=for-the-badge)](https://github.com/Taoshif1/LearningTS)
-[![Author: Gazi Taoshif](https://img.shields.io/badge/Author-Gazi%20Taoshif-blue.svg?style=for-the-badge)](https://www.github.com/Taoshif1)
+# Learning TypeScript 🚀
 
----
+[![Status: Active Learning](https://img.shields.io/badge/Status-Active%20Learning-brightgreen.svg?style=for-the-badge)](https://github.com/Taoshif1/LearningTS)
+[![Author: Gazi Taoshif](https://img.shields.io/badge/Author-Gazi%20Taoshif-blue.svg?style=for-the-badge)](https://github.com/Taoshif1)
 
-## **Hey there, fellow code explorers! Welcome to my journey of learning TypeScript!👋**
+A hands-on TypeScript learning repository where I practice concepts with small examples, comments, and compiled JavaScript beside the TypeScript source.
 
-## **Why This Repository?**
+## Why This Repository?
 
-Learning to code is an adventure and TypeScript is the latest exciting terrain I'm navigating. This repository is where I put theory into practice, try out different concepts and build small projects to solidify my understanding. I want to share this space not as a definitive guide but as a real-world example of someone going through the learning process – with all its ups and downs.
+I use this repository to strengthen TypeScript fundamentals and understand the type system behind the applications I build. The focus is not only writing code that works, but understanding why TypeScript accepts or rejects it and how stronger types make real applications safer to maintain.
 
----
+## Topics Covered
 
-## **What You Might Find Here (Expect Imperfection!):**
+### TypeScript Basics
+- Built-in types: `number`, `string`, `boolean`, `any`, `void`, `null`, `undefined`, `never`
+- Arrays, objects, tuples and enums
+- Type aliases and custom types
+- Union types
+- Literal types
+- Intersection types
+- `unknown` and `never`
 
-* **Experiments with Fundamentals:** You'll find codes with explanation by comments, where I'm playing around with basic types, functions and control flow.
-* **OOP Adventures:** My attempts at implementing classes, interfaces and inheritance in TypeScript. Some might be elegant, others... well, they're learning experiences!
-* **Tackling Advanced Concepts:** My journey into generics, unions, intersections and other more complex TypeScript features. Expect some "aha!" moments and maybe a few head-scratchers.
-* **My Learning Notes (Implicitly):** The code itself is a reflection of my learning process. You might see different approaches as my understanding evolved but i found it really fun to learn.
+### Functions
+- Typed parameters and return types
+- Function signatures
+- Optional parameters
+- Default parameters
+- Rest parameters
+- Function overloads
 
----
+### Interfaces
+- Creating and using interfaces
+- Interface-based object typing
+- Classes implementing interfaces
+- Interface inheritance with `extends`
 
-## **My Motivation - Learning and Growing Together:**
+### Object-Oriented TypeScript
+- Classes and constructors
+- Inheritance
+- Encapsulation
+- Access modifiers: `public`, `private`, `protected`, `readonly`
+- Getters and setters
+- Abstract classes and methods
+- Polymorphism
 
-My goal is to become a more effective and efficient developer by mastering TypeScript. I believe understanding static typing and building robust applications is crucial. Sharing this repository is my way of contributing to the learning community. If you're also learning TypeScript, maybe you can relate to my struggles and celebrate the small victories with me. I'm always open to learning any tech-related subject/language.
+### Modules
+- `export`
+- Named imports
+- Renamed imports
+- Namespace imports with `import * as`
 
----
+### DOM with TypeScript
+- DOM element type assertions
+- Typed form elements
+- Typed events
+- Working with form input values safely
 
-## **A Word for Fellow Learners:**
+### Type Narrowing
+- `typeof` narrowing
+- Truthiness narrowing
+- `in` operator narrowing
+- `instanceof` narrowing
+- Equality narrowing
+- Discriminated unions
+- Custom type predicates
+- Exhaustive `never` checking
 
-If you're also on the TypeScript learning path, know that you're not alone! It's okay to make mistakes, get stuck, get lost and feel overwhelmed sometimes. The key is to keep exploring, experimenting and pushing forward. I hope this repository offers a glimpse into the messy but rewarding reality of learning a new technology. Let's learn from each other!
+### Generics
+- Generic functions
+- Multiple generic type parameters
+- Generic arrays
+- Generic classes
+- Generic interfaces
+- Generic constraints
+- `keyof` with generics
 
----
+### Type Operators
+- `keyof`
+- Indexed access types
+- `typeof` in type positions
+- `as const`
+- `satisfies`
 
-## **✍️ Author:**
-Gazi Taoshif. 
-CSE (EWU). 
-Dhaka, Bangladesh.
+### Utility and Derived Types
+- `Partial`
+- `Required`
+- `Pick`
+- `Omit`
+- `Readonly`
+- `Record`
+- Mapped types
+- Conditional types
 
----
+### Async TypeScript
+- `Promise<T>`
+- Typed `async` / `await`
+- Typed API response examples
+- Error handling with `unknown`
 
-## **Connect and Learn with Me:**
+## Repository Structure
 
-I'd love to connect with other learners and developers! Feel free to reach out with insights, suggestions or to share your learning experiences.
+```text
+LearningTS/
+├── built-in-type/
+├── user-defined-datatype/
+├── function/
+├── class-typeScript/
+├── full-OOP/
+├── interface/
+├── narrowing/
+├── generics/
+├── type-operator/
+├── utility-types/
+├── mapped-conditional-type/
+├── async-typeScript/
+├── module-demo/
+├── DOM/
+├── tsConfig/
+├── src/
+├── package.json
+└── tsconfig.json
+```
 
-* LinkedIn: [www.linkedin.com/in/taoshif1]
-* Portfolio: [[https://taoshif1.github.io/portfolio-css/](https://taoshif1.github.io/AI-Portfolio/)]
-* Email: taoshif2@gmail.com 📧
+Each topic is intentionally kept small so I can focus on one TypeScript idea at a time. Many examples include the compiled `.js` file beside the `.ts` source so I can also observe how TypeScript is converted to JavaScript.
 
----
+## Setup
 
-## **Contributing (With a Learner's Mindset):**
+```bash
+git clone https://github.com/Taoshif1/LearningTS.git
+cd LearningTS
+npm install
+```
 
-This is primarily my personal learning space but I welcome constructive feedback and suggestions to improve my learning. Please let me know if you see areas for improvement or alternative approaches.
+TypeScript is included as a development dependency. Individual examples can be opened and tested separately while learning.
 
----
+## Current Goal
 
-## **Final Thoughts:**
+This repository is an active fundamentals lab. I am revisiting TypeScript deliberately so that AI-assisted development does not replace my own understanding of the language, type system, debugging process, and engineering decisions.
 
-Thanks for stopping by and taking a look at my TypeScript learning journey. Remember, every expert started somewhere and sharing our learning process can be incredibly valuable. Let's keep learning and growing together!
+## Author
 
----
+**Gazi Taoshif**  
+CSE, East West University  
+Dhaka, Bangladesh
 
-# **Happy Coding!💻**
+- [GitHub](https://github.com/Taoshif1)
+- [LinkedIn](https://www.linkedin.com/in/taoshif1/)
+- [Portfolio](https://webdevportfolio-three.vercel.app/)
 
-##  **Did you find this repository helpful? 👍**
-
-## **If this repository has helped you in any way, please consider giving a star!⭐ Your support motivates me to continue sharing my learning journey.**
+Constructive feedback and suggestions are welcome.
