@@ -1,8 +1,8 @@
-// type guards with typeof
-// typeof variable === string/number/boolean/symbol/undefined/object/function
-var printAllTodos = function (todos) {
-    if (typeof todos === 'object') {
-        todos.map(function (todo) { return console.log(todo); });
+"use strict";
+// type guards with typeof and Array.isArray
+const printAllTodos = (todos) => {
+    if (Array.isArray(todos)) {
+        todos.map((todo) => console.log(todo));
     }
     else if (typeof todos === 'string') {
         console.log(todos);
@@ -11,5 +11,5 @@ var printAllTodos = function (todos) {
         console.log('todos are empty');
     }
 };
-var todos = ["todo1", "todo2"];
+const todos = ["todo1", "todo2"];
 printAllTodos(todos);

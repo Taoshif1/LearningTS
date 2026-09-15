@@ -1,7 +1,6 @@
-// type guards with typeof
-// typeof variable === string/number/boolean/symbol/undefined/object/function
+// type guards with typeof and Array.isArray
 const printAllTodos = (todos: string[] | string | null) => {
-    if (typeof todos === 'object') {
+    if (Array.isArray(todos)) {
         todos.map((todo) => console.log(todo));
     }
     else if(typeof todos === 'string'){
