@@ -3,99 +3,99 @@
 [![Status: Active Learning](https://img.shields.io/badge/Status-Active%20Learning-brightgreen.svg?style=for-the-badge)](https://github.com/Taoshif1/LearningTS)
 [![Author: Gazi Taoshif](https://img.shields.io/badge/Author-Gazi%20Taoshif-blue.svg?style=for-the-badge)](https://github.com/Taoshif1)
 
-A hands-on TypeScript learning repository where I practice concepts with small examples, comments, and compiled JavaScript beside the TypeScript source.
+A hands-on TypeScript learning repository where I study the language, test concepts in small examples, and gradually apply them to real React/frontend development.
 
-## Why This Repository?
+This repository is intentionally a learning journal. Older examples remain visible because they show the progression from TypeScript fundamentals toward stronger application-level type design.
 
-I use this repository to strengthen TypeScript fundamentals and understand the type system behind the applications I build. The focus is not only writing code that works, but understanding why TypeScript accepts or rejects it and how stronger types make real applications safer to maintain.
+## Current Stage
+
+**Fundamentals covered → practical and advanced TypeScript in React.**
+
+I am now focusing less on basic annotations and more on modelling real application state, reusable components, API data, errors, hooks, and state management safely.
+
+Current track: [`react-typescript/`](./react-typescript)
 
 ## Topics Covered
 
-### TypeScript Basics
+### TypeScript Fundamentals
+
 - Built-in types: `number`, `string`, `boolean`, `any`, `void`, `null`, `undefined`, `never`
 - Arrays, objects, tuples and enums
 - Type aliases and custom types
-- Union types
-- Literal types
-- Intersection types
+- Union, literal and intersection types
 - `unknown` and `never`
 
 ### Functions
+
 - Typed parameters and return types
 - Function signatures
-- Optional parameters
-- Default parameters
-- Rest parameters
+- Optional, default and rest parameters
 - Function overloads
 
-### Interfaces
-- Creating and using interfaces
-- Interface-based object typing
-- Classes implementing interfaces
-- Interface inheritance with `extends`
+### Interfaces and OOP
 
-### Object-Oriented TypeScript
+- Interfaces and interface inheritance
+- Classes implementing interfaces
 - Classes and constructors
-- Inheritance
+- Inheritance and polymorphism
 - Encapsulation
-- Access modifiers: `public`, `private`, `protected`, `readonly`
+- `public`, `private`, `protected`, `readonly`
 - Getters and setters
 - Abstract classes and methods
-- Polymorphism
 
-### Modules
-- `export`
-- Named imports
-- Renamed imports
-- Namespace imports with `import * as`
+### Modules and DOM
 
-### DOM with TypeScript
-- DOM element type assertions
-- Typed form elements
-- Typed events
-- Working with form input values safely
+- `export` and imports
+- Named, renamed and namespace imports
+- DOM element assertions
+- Typed form elements and events
+- Safe form input access
 
 ### Type Narrowing
-- `typeof` narrowing
-- Truthiness narrowing
-- `in` operator narrowing
-- `instanceof` narrowing
-- Equality narrowing
-- Discriminated unions
-- Custom type predicates
-- Exhaustive `never` checking
+
+- `typeof`
+- truthiness
+- `in`
+- `instanceof`
+- equality narrowing
+- discriminated unions
+- custom type predicates
+- exhaustive `never` checking
 
 ### Generics
+
 - Generic functions
-- Multiple generic type parameters
-- Generic arrays
-- Generic classes
-- Generic interfaces
+- Multiple type parameters
+- Generic arrays, classes and interfaces
 - Generic constraints
 - `keyof` with generics
 
-### Type Operators
+### Type Operators and Derived Types
+
 - `keyof`
-- Indexed access types
+- indexed access types
 - `typeof` in type positions
 - `as const`
 - `satisfies`
-
-### Utility and Derived Types
-- `Partial`
-- `Required`
-- `Pick`
-- `Omit`
-- `Readonly`
-- `Record`
-- Mapped types
-- Conditional types
+- `Partial`, `Required`, `Pick`, `Omit`, `Readonly`, `Record`
+- mapped types
+- conditional types
 
 ### Async TypeScript
+
 - `Promise<T>`
-- Typed `async` / `await`
-- Typed API response examples
-- Error handling with `unknown`
+- typed `async` / `await`
+- typed API response examples
+- error handling with `unknown`
+
+### React + TypeScript
+
+- typed component props
+- literal unions for constrained props
+- optional props
+- typed conditional rendering
+
+See the live checklist in [`react-typescript/README.md`](./react-typescript/README.md).
 
 ## Repository Structure
 
@@ -115,13 +115,54 @@ LearningTS/
 ├── async-typeScript/
 ├── module-demo/
 ├── DOM/
+├── react-typescript/
+│   ├── README.md
+│   └── 01-typed-props/
 ├── tsConfig/
 ├── src/
 ├── package.json
 └── tsconfig.json
 ```
 
-Each topic is intentionally kept small so I can focus on one TypeScript idea at a time. Many examples include the compiled `.js` file beside the `.ts` source so I can also observe how TypeScript is converted to JavaScript.
+Many early examples include compiled `.js` files beside their `.ts` source. This was intentional while learning how TypeScript is transformed into JavaScript.
+
+## Learning Roadmap
+
+### Phase 1 — Core TypeScript ✅
+
+Language fundamentals, functions, interfaces, OOP, narrowing, generics, utility types, modules, DOM and async TypeScript.
+
+### Phase 2 — Practical React + TypeScript 🟡
+
+- precise state modelling
+- discriminated unions in UI state
+- typed React events and forms
+- `useState`, `useReducer`, `useRef`, Context
+- generic components and custom hooks
+- API response and error modelling
+- advanced inference and reusable type patterns
+
+### Phase 3 — Redux Toolkit + TypeScript
+
+- store architecture
+- typed slices and reducers
+- typed hooks and selectors
+- async thunks
+- RTK Query
+- server state vs client state
+
+### Phase 4 — Frontend Engineering
+
+- testing
+- accessibility
+- performance
+- browser and HTTP fundamentals
+- authentication patterns
+- frontend architecture
+
+### Phase 5 — Backend and Go
+
+After strengthening frontend engineering fundamentals, the next language track will cover Go from syntax through APIs, databases and concurrency.
 
 ## Setup
 
@@ -131,20 +172,18 @@ cd LearningTS
 npm install
 ```
 
-TypeScript is included as a development dependency. Individual examples can be opened and tested separately while learning.
+The repository contains small independent learning examples, so not every folder is intended to run as one application.
 
-## Current Goal
+## Learning Principle
 
-This repository is an active fundamentals lab. I am revisiting TypeScript deliberately so that AI-assisted development does not replace my own understanding of the language, type system, debugging process, and engineering decisions.
+The objective is not to add type annotations everywhere. It is to understand the type system well enough to model valid states, catch invalid assumptions earlier, and make better engineering decisions without depending blindly on generated code.
 
 ## Author
 
 **Gazi Taoshif**  
-CSE, East West University  
-Dhaka, Bangladesh
+CSE, East West University
 
 - [GitHub](https://github.com/Taoshif1)
 - [LinkedIn](https://www.linkedin.com/in/taoshif1/)
-- [Portfolio](https://webdevportfolio-three.vercel.app/)
 
 Constructive feedback and suggestions are welcome.
