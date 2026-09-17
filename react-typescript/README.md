@@ -24,7 +24,7 @@ This folder applies TypeScript concepts inside React instead of keeping them as 
 
 ### 01 — Typed Props
 
-`01-typed-props/ProductCard.tsx`
+[`01-typed-props/ProductCard.tsx`](./01-typed-props/ProductCard.tsx)
 
 Covers:
 
@@ -33,6 +33,12 @@ Covers:
 - optional properties
 - destructured typed props
 - conditional rendering
+
+### 02 — Discriminated Unions for UI State
+
+[`02-discriminated-unions/README.md`](./02-discriminated-unions/README.md)
+
+Current exercise. Model `idle`, `loading`, `success`, and `error` as valid states instead of combining loosely related booleans and optional fields.
 
 ## Goal
 
