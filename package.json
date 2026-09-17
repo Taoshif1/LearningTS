@@ -1,14 +1,25 @@
 {
   "name": "learningts",
   "version": "1.0.0",
+  "private": true,
+  "description": "Hands-on TypeScript and React + TypeScript learning repository by Gazi Taoshif.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No automated tests configured yet\""
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "react",
+    "learning",
+    "frontend",
+    "type-system"
+  ],
+  "author": "Gazi Taoshif",
   "license": "ISC",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taoshif1/LearningTS.git"
+  },
   "devDependencies": {
     "typescript": "^5.8.2"
   }
